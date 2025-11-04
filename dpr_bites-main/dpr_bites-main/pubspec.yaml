@@ -1,0 +1,70 @@
+name: dpr_bites
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  camera: ^0.10.5+9
+  geocoding: ^2.1.0
+  cupertino_icons: ^1.0.8
+  riverpod: ^2.6.1
+  go_router: ^16.0.0
+  flutter_riverpod: ^2.6.1
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.5.3
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+  location: ^8.0.0
+  http: ^1.2.2
+  permission_handler: ^11.3.1
+  image: ^4.1.3
+  flutter_ocr_sdk: ^2.0.5
+  google_mlkit_text_recognition: ^0.13.0
+  pin_code_fields: ^8.0.1
+  url_launcher: ^6.3.2
+  month_picker_dialog: ^6.5.0
+  open_filex: ^4.4.0
+  flutter_secure_storage: ^9.0.0   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  js: ^0.7.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/waroenk88.jpeg
+    - lib/assets/images/kantinmakmur.jpeg
+    - lib/assets/images/pecel.jpeg
+    - lib/assets/images/nasi_goreng.jpeg
+    - lib/assets/images/soto_ayam.jpeg
+    - lib/assets/images/pecel_lele.jpeg
+    - lib/assets/images/ricebowl.jpeg
+    - lib/assets/images/ayam_teriyaki.jpeg
+    - lib/assets/images/bakmie.jpeg
+    - lib/assets/images/spatulaknife.png
+    - lib/assets/images/iconCircle.png
+    - lib/assets/images/iconLocation.png
+    - lib/assets/images/iconUser.png
+    - lib/assets/images/iconCamera.png
+    - lib/assets/images/iconQR.png
+    - lib/assets/images/iconCheck.png
+    - lib/assets/images/iconDelivery.png
+    - lib/assets/images/young_people_in_aprons.jpeg
+    - lib/assets/images/chalkboard_menu.jpeg
+    - lib/assets/images/ktp_dummy.jpg
+    - lib/assets/images/dummy profile.jpeg
